@@ -1,0 +1,1 @@
+docker run -d -it -p 27015:27015/udp sourceservers/csgo:latest 'srcds_linux -game csgo -port 27015 +game_type 1 +game_mode 2 +mapgroup mg_active +map de_dust2 +sv_setsteamaccount 8D24565718B9733BDBE0D1C469B1336F'
